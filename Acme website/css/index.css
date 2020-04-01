@@ -1,0 +1,203 @@
+html,body
+{
+    background-color: #f4f4f4;
+    margin: 0px;
+    padding: 0px;
+    font: 16px/1.5 Arial,Helvetica,sans-serif;
+}
+/*global style*/
+#container
+{
+    width: 80%;
+    margin: auto ;
+    overflow:hidden;
+
+}
+header
+{
+    background-color: #35424A;
+    border-bottom: #E8491D 5px solid ;
+    color: white ;
+    min-height:70px;
+    padding-top:30px;
+
+  }
+#branding
+{
+    float: left;
+    
+   
+}
+header #branding h1{
+    margin:0;
+  }
+header nav 
+{
+    float: right ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+header ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    
+  }
+  header li 
+  {
+
+      float: left;
+      padding: 0px 15px 0px 15px ;
+      
+
+  }
+  header a {
+    text-decoration: none;
+    color: white ;
+    text-transform: uppercase;
+    font-size:16px;
+  }
+  header a:hover 
+  {
+    color: #E8491D ;
+    font-size:18px;
+
+
+  }
+   .highlight 
+  {
+     color: #E8491D  ;
+  }
+  header .highlight, header .current a
+  {
+    color:#e8491d;
+    font-weight:bold;
+  }
+  #showcase
+  {
+    background:url('../img/showcase.jpg') no-repeat 0 -400px;
+    min-height: 400px;
+    text-align: center;
+    color: white;
+}
+#showcase h1 
+{
+    font-size: 55px;
+    margin-top: 90px; 
+    margin-bottom: 20px;
+}
+#showcase p 
+{
+    font-size: 20px;
+
+}
+#subscribe
+{
+    background-color: #35424A;
+    color: white;
+    padding:15px;
+}
+#subscribe h1 
+{
+    float: left;
+} 
+#subscribe form 
+{
+    float: right;
+    padding-top: 25px;
+}
+
+#subscribe input[type="email"]
+{
+    padding-left: 5px;
+    padding-right: 15px;
+    padding:4px;
+    height:40px;
+    margin-left: 15px;
+    width: 250px;
+}
+.button1
+{
+    background-color: #E8491D ;
+    color: white ;
+    padding: 10px;
+    border: 0px;
+
+}
+
+
+
+#boxes
+{
+margin-top: 20px;
+}
+.box
+{
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 10px;;
+    
+}
+
+.box img 
+{
+    width:90px;
+
+}
+footer
+{
+    background-color: #E8491D ;
+    color: white;
+    text-align: center;
+
+}
+@media(max-width: 768px)
+{
+    header #branding,
+    #subscribe h1,
+    #subscribe form,
+    #boxes .box ,
+    #subscribe .button1,
+    #subscribe input[type="email"]
+
+{
+    float:none;
+    text-align:center;
+    width:100%;
+}
+nav{
+    position: relative;
+    right: 60px;
+}
+#subscribe input[type="email"]
+{
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+#subscribe .button1 , .button4{
+    display:block;
+    width:97%;
+    position: relative;
+    left: 13px;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+  }
+
+  
+html,body
+{
+    background-color: #90BAE4;
+    color: #485e74;
+    line-height: 1.6;
+    font-family: 'segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+
+    margin-left:auto;
+    margin-right:auto;
+    padding:2em;
+  }
+.brand
+{
+    text-align: center;
+    color: #485E74;
+}
+.span
+{
+    color: white;
+}
+.wrapper
+{
+    max-width:1170px;
+    text-align: center;
+    box-shadow: 0px 0px 15px gray;
+    background-color: white;
+
+
+}
+
+
+.contact{
+    
+    background-color: #C9E6FF;
+    /* padding:10px 20px 20px 15px;     */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+
+}
+ul
+{
+    padding: 0;
+    list-style-type: none;
+    
+
+}
+
+.user-info h5
+{
+text-align: left;
+margin-left: 10px;
+font-weight: bold;
+font-size: 18px;
+margin-bottom: 16px;
+
+
+}
+.user-info form
+{
+    padding-left:  1em;
+    padding-right:  1em;
+    padding-bottom:  1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+    text-align: left;
+}
+form label{
+    display:block;
+  }
+  .user-info form p{
+    margin:0;
+  }  
+.user-info form input ,.user-info form textarea,.user-info form button
+{
+    width: 100%;
+    padding: 1em;
+    border:1px solid #c9e6ff;
+
+}
+.user-info form
+.full
+{
+    grid-column: 1 / 3;
+
+}
+.user-info form button
+{
+    background-color: #B9DAF8;
+    text-transform: uppercase;
+    border:none;
+    padding: 15px;
+}
+.user-info form button:hover
+{
+    color: white;
+    background-color: #90BAE4;
+    transition: background-color 2s ease-out;
+
+}
+
+@media(min-width:700px)
+{
+    .wrapper
+{
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.brand
+{
+    text-align: left;
+}
+.user-info
+{
+    padding: 2em;
+}
+}
